@@ -1,0 +1,207 @@
+    spp->nchnls = 8; 
+    spp->chnls_per_zone = 1;
+    spp->zones = ctrl->num_zones; // 假设zones数量等于num_zones
+    spp->ways = 1; 
+    spp->ways_per_zone = 1;
+    spp->dies_per_chip = 1; 
+    spp->planes_per_die = 2; 
+    spp->register_model = 1;
+[TEST] zns.c:1767 slba:0  ppa:0 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:16  ppa:1 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:32  ppa:32 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:48  ppa:33 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:64  ppa:64 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:80  ppa:65 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:96  ppa:96 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:112  ppa:97 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:128  ppa:128 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:144  ppa:129 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:160  ppa:160 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:176  ppa:161 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:192  ppa:192 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:208  ppa:193 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:224  ppa:224 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:240  ppa:225 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:256  ppa:256 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:272  ppa:257 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:288  ppa:288 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:304  ppa:289 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:320  ppa:320 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:336  ppa:321 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:352  ppa:352 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:368  ppa:353 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:384  ppa:384 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:400  ppa:385 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:416  ppa:416 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:432  ppa:417 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:448  ppa:448 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:464  ppa:449 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:480  ppa:480 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:496  ppa:481 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:512  ppa:512 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:528  ppa:513 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:544  ppa:544 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:560  ppa:545 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:576  ppa:576 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:592  ppa:577 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:608  ppa:608 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:624  ppa:609 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:640  ppa:640 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:656  ppa:641 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:672  ppa:672 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:688  ppa:673 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:704  ppa:704 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:720  ppa:705 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:736  ppa:736 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:752  ppa:737 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:768  ppa:768 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:784  ppa:769 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:800  ppa:800 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:816  ppa:801 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:832  ppa:832 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:848  ppa:833 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:864  ppa:864 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:880  ppa:865 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:896  ppa:896 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:912  ppa:897 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:928  ppa:928 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:944  ppa:929 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:960  ppa:960 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:976  ppa:961 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:992  ppa:992 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1008  ppa:993 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1024  ppa:1024 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1040  ppa:1025 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1056  ppa:1056 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1072  ppa:1057 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1088  ppa:1088 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1104  ppa:1089 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1120  ppa:1120 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1136  ppa:1121 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1152  ppa:1152 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1168  ppa:1153 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1184  ppa:1184 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1200  ppa:1185 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1216  ppa:1216 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1232  ppa:1217 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1248  ppa:1248 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1264  ppa:1249 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1280  ppa:1280 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1296  ppa:1281 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1312  ppa:1312 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1328  ppa:1313 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1344  ppa:1344 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1360  ppa:1345 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1376  ppa:1376 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1392  ppa:1377 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1408  ppa:1408 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1424  ppa:1409 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1440  ppa:1440 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1456  ppa:1441 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1472  ppa:1472 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1488  ppa:1473 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1504  ppa:1504 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1520  ppa:1505 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1536  ppa:1536 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1552  ppa:1537 plane:1 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1568  ppa:1568 plane:0 chipidx:0 channel:0
+
+[TEST] zns.c:1767 slba:1584  ppa:1569 plane:1 chipidx:0 channel:0
