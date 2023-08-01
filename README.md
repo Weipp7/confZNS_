@@ -24,3 +24,7 @@
 修改后：`slba` 右移2位后得到的结果是 0、4、8、12，然后再除以4得到的结果是 0、1、2、3。
 
 从结果上看，修改后的逻辑在不同的 `slba` 值下得到了不同的逻辑页面索引，而修改前的逻辑在一定范围内的 `slba` 值下得到了相同的逻辑页面索引。
+
+这部分仅仅对confzns的地址映射做些实际操作的探索，关于原理的解析可以访问[confZNS 分析](https://weipp7.gitee.io/posts/0.html)
+
+[源码参考](https://github.com/DKU-StarLab/ConfZNS/tree/master)
